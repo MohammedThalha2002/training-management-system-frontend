@@ -10,6 +10,11 @@ import { CardComponent } from './courses/card/card.component';
 import { CoursesComponent } from './courses/courses.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { RoadmapsComponent } from './roadmaps/roadmaps.component';
+import { AuthComponent } from './auth/auth.component';
+import { LoginComponent } from './auth/login/login.component';
+import { SigninComponent } from './auth/signin/signin.component';
+import { AdminComponent } from './auth/admin/admin.component';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +26,11 @@ import { RoadmapsComponent } from './roadmaps/roadmaps.component';
     CoursesComponent,
     FeaturedComponent,
     RoadmapsComponent,
+    AuthComponent,
+    LoginComponent,
+    SigninComponent,
+    AdminComponent,
+    AdminPanelComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
